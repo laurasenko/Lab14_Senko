@@ -1,0 +1,50 @@
+html {
+background-image: url(books_background.jpg);
+}
+
+
+#dog{
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+#cat{
+	margin: 0 auto;
+	text-align: center;
+}
+
+nav {
+	text-align: center;
+	color: blue;
+	word-spacing: 50%;
+	border: 2px solid black;
+	background-color: white;
+	font-size: 150%;
+
+a {
+	font-size: 20px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: orange;
+
+a:active {
+  color: blue;
+}
+
+img {
+	 width: 50%;
+ 	 height: 50%;
+  	margin: auto;
+  	display: block;
+  	border-radius: 10%;
+}
+
+h1{
+	color: orange;
+	text-align: center;
+}
