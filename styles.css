@@ -5,21 +5,21 @@ background-image: url(books_background.jpg);
 
 #dog{
 	margin: 0 auto;
-	text-align: center;
+	text-align: left;
 
 }
 
 #cat{
 	margin: 0 auto;
-	text-align: center;
+	text-align: left;
 }
 
 nav {
 	text-align: center;
-	color: blue;
+	color: white;
 	word-spacing: 50%;
 	border: 2px solid black;
-	background-color: white;
+	background-color: crimson;
 	font-size: 150%;
 
 a {
@@ -30,10 +30,10 @@ a {
 
 a:hover {
     text-decoration: underline;
-    color: orange;
+    color: blue;
 
 a:active {
-  color: blue;
+  color: black;
 }
 
 img {
@@ -41,10 +41,12 @@ img {
  	 height: 50%;
   	margin: auto;
   	display: block;
-  	border-radius: 10%;
+  	border-radius: 10%; 
+  	border: 5px solid crimson;
 }
 
 h1{
-	color: orange;
+	color: crimson;
 	text-align: center;
+	font-weight: bolder;
 }
